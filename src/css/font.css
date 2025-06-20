@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: normal;
+  src: url("../fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ElicEliceDigitalBaeum-Bd";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/EliceDigitalBaeum_Regular.ttf");
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+@layer components {
+  .tp {
+    font-family: "ElicEliceDigitalBaeum-Bd", monospace;
+    @apply text-[100px];
+  }
+  .b1 {
+    font-family: "Noto Sans", sans-serif;
+    @apply text-[60px] font-bold;
+  }
+  .h1 {
+    font-family: "Noto Sans", sans-serif;
+    @apply text-[32px] font-bold;
+  }
+
+  .h2 {
+    font-family: "Noto Sans", sans-serif;
+    @apply text-[28px] font-bold;
+  }
+
+  .h3 {
+    font-family: "Noto Sans", sans-serif;
+    @apply text-[24px] font-medium;
+  }
+}
