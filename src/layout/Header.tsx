@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Logo from "/jgun.png";
 
 export default function Header() {
@@ -7,7 +8,9 @@ export default function Header() {
         <img className="ml-5 h-24 w-24" src={Logo} alt="로고" />
         <div className="flex-grow"></div>
         <div className="mr-15 flex gap-11">
-          <button className="h3 text-main">About Me</button>
+          <Link to="/about" className="h3 text-main">
+            About Me
+          </Link>
           <button className="h3 text-main">Skills</button>
           <button className="h3 text-main">Experience</button>
         </div>
