@@ -13,6 +13,7 @@ export default function MainLayout() {
       backgroundImage: "url(/portfolioMain.jpg)",
     };
   };
+
   return (
     <>
       <div
