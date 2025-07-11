@@ -11,11 +11,11 @@ export default function Header() {
 
         <div className="flex-grow"></div>
         <div className="mr-15 flex gap-11">
-          <Link to="/about" className="h3 text-main">
+          <Link to="/about" className="h3 font-bold text-main">
             About Me
           </Link>
-          <button className="h3 text-main">Skills</button>
-          <button className="h3 text-main">Experience</button>
+          <button className="h3 font-bold text-main">Skills</button>
+          <button className="h3 font-bold text-main">Experience</button>
         </div>
       </header>
     </>
