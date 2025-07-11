@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="min-h-screen min-w-screen bg-background">
+      <div className="mb-20 h-fit w-380 bg-background">
         <div className="mx-20 pt-20">
           <h1 className="mb-10">
             <span className="text-main">안녕하세요! 저는 </span>

@@ -16,7 +16,7 @@ export default function MainLayout() {
   return (
     <>
       <div
-        className="flex min-h-screen flex-col overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat"
+        className="flex max-h-screen min-h-screen flex-col overflow-x-auto overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat"
         style={getBackground()}
       >
         <Header />
