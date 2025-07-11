@@ -14,6 +14,18 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+@layer base {
+  h1 {
+    @apply text-[32px] font-bold;
+  }
+  h2 {
+    @apply text-[28px] font-bold;
+  }
+  h3 {
+    @apply text-[24px] font-medium;
+  }
+}
+
 @layer components {
   .tp {
     font-family: "ElicEliceDigitalBaeum-Bd", monospace;
